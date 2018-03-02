@@ -1,6 +1,9 @@
 a{
     color:black;
 }
-a.paper{
+a#paper{
     text-decoration: none;
+}
+a#paper:hover{
+    text-decoration: underline;
 }
