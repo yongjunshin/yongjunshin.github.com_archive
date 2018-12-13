@@ -19,8 +19,11 @@ li {
   list-style: none;
   counter-increment: number;
 }
-li::before {
+ol#conference_paper li::before {
   content: "[c." counter(number) "]";
   position: relative;
-  left:-5px
+}
+ol#journal_paper li::before {
+  content: "[j." counter(number) "]";
+  position: relative;
 }
