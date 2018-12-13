@@ -11,6 +11,14 @@ body{
     font-family: 'Raleway', sans-serif;
     line-height: 150%;
 }
+
+ol {
+  counter-reset: number;
+}
+li {
+  list-style: none;
+  counter-increment: number;
+}
 li::before {
   content: "[c." counter(number) "]";
   position: relative;
