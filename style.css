@@ -15,4 +15,5 @@ body{
 
 li {
     list-style-position: outside;
+    padding-left: 0.5em;
 }
