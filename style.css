@@ -11,3 +11,8 @@ body{
     font-family: 'Raleway', sans-serif;
     line-height: 150%;
 }
+li::before {
+  content: "[c." counter(number) "]";
+  position: relative;
+  left:-5px
+}
