@@ -12,13 +12,15 @@ body{
     line-height: 150%;
 }
 
-
+ol {
+    list-style-type: decimal;
+}
 li {
-  list-style-position: outside;
+    list-style-position: outside;
 }
 ol#conference_paper li::before {
-  content: "[c." counter(number) "]";
+    content: "[c." counter(decimal) "]";
 }
 ol#journal_paper li::before {
-  content: "[j." counter(number) "]";
+    content: "[j." counter(decimal) "]";
 }
