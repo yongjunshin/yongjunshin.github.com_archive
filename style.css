@@ -14,9 +14,9 @@ body{
 
 ol {
   counter-reset: number;
+  list-style-position: outside;
 }
 li {
-  list-style: none;
   counter-increment: number;
 }
 ol#conference_paper li::before {
