@@ -19,8 +19,8 @@ li {
     list-style-position: outside;
 }
 ol#conference_paper li::before {
-    content: "[c." counter(decimal) "]";
+    content: "[x." counter(decimal) "]";
 }
 ol#journal_paper li::before {
-    content: "[j." counter(decimal) "]";
+    content: "[xx." counter(decimal) "]";
 }
