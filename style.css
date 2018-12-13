@@ -13,7 +13,7 @@ body{
 }
 
 ol {
-    list-style-type: decimal;
+    list-style-type: none;
 }
 li {
     list-style-position: outside;
