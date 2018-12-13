@@ -12,18 +12,13 @@ body{
     line-height: 150%;
 }
 
-ol {
-  counter-reset: number;
-}
+
 li {
   list-style-position: outside;
-  counter-increment: number;
 }
 ol#conference_paper li::before {
   content: "[c." counter(number) "]";
-  position: relative;
 }
 ol#journal_paper li::before {
   content: "[j." counter(number) "]";
-  position: relative;
 }
